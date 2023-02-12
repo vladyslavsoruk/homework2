@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-style {
+    text-align: center;
+    padding: 25px;
+}
+
+.header-style ul {
+    text-transform: uppercase;
+}
+
+.header-style li {
+    list-style-type: none;
+    display: inline;
+    margin: 35px;
+}
+
+.header-style a {
+    color: red;
+    text-decoration: none;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-style a:hover {
+    color: rgba(255, 0, 0, .6);
+    transition: .5s;
+}
+
+.fullscreen-image {
+    width: 100%;
+}
+
+.main-info {
+    text-align: center;
+}
+
+.main-info h2 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: "Arial";
+    letter-spacing: 1.3px;
+    font-weight: 700;
+}
+
+.article-style {
+    font-family: "Courier New";
+}
+
+.paragraph-style {
+    padding: 15px 45px;
+}
+
+.button-style {
+    margin: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.button-style:hover {
+    background-color: rgba(255, 0, 0, .6);
+    transition: .5s;
+}
+
+.button-style a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Arial";
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+
+.footer-style {
+    text-align: right;
+    margin: 15px 45px 30px;
+    font-family: "Arial";
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
